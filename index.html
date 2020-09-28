@@ -1,0 +1,110 @@
+ <!DOCTYPE html>
+ <html lang="en-gb" class="wmnds-html">
+
+ <head>
+     <title>User research - West Midlands Network</title><meta name="viewport" content="width=device-width,initial-scale=1">
+     <!-- CSS for WMN Design System -->
+     <link rel="stylesheet" href="https://designsystem.wmnetwork.co.uk/css/wmnds-components.min.css" />
+ </head>
+
+ <body>
+     <!-- Skip to content link -->
+     <a href="#wmnds-main-content" title="Skip to main content" target="_self" class="wmnds-link wmnds-header__skip-link">Skip to main content</a>
+     <!-- Main header section -->
+     <header>
+         <div class="wmnds-header">
+             <div class="wmnds-container wmnds-grid wmnds-grid--align-center wmnds-grid--justify-between">
+                 <div class="wmnds-header__vertical-align wmnds-col-auto">
+                     <!-- Logo -->
+                     <a class="wmnds-header__logo-link" href="#" title="West Midlands Network Design System">
+                         <img class="wmnds-header__logo" alt="West Midlands Network logo" src="https://designsystem.wmnetwork.co.uk/img/logo.svg" />
+                     </a>
+                 </div>
+             </div>
+         </div>
+     </header>
+     <br><br>
+     <main>
+         <div class="wmnds-grid wmnds-container">
+             <div class="wmnds-col-1 wmnds-col-lg-2-3">
+                 <h1>Test our new campaign pages</h1>
+                 <p>We have designed a few different options for campaign pages and would love to hear your feedback on them.</p>
+                 <br>
+                 <h2>The tasks</h2>
+                 <ul>
+                     <li>You will be asked to read the content on each page and locate specific information.</li>
+                     <li>To complete a task, click on the part of the page when you find the required information.</li>
+                     <li>Once you complete each task, you will need to answer some questions about the previous page.</li>
+                 </ul>
+                 <br>
+                 <h2>Before you start</h2>
+                 <ul>
+                     <li>All links on the prototype pages will take you to the next page.</li>
+                     <li>The pages are still being developed and may behave differently to what you might expect from a live website.</li>
+                     <li>In the background, the prototype will anonymously record how you complete each task.</li>
+                     <li>We use this information to see if our proposed designs work.</li>
+                     <li>If you skip any of the questions you will not be entered in to the prize draw.</li>
+                     <li>If you have an ad blocker enabled, you will need to turn it off, otherwise the questions will not appear.</li>
+                     <li>The entire task will take 10 to 15 minutes.</li>
+                 </ul>
+                 <br>
+                 <h3>A message from the project team</h3>
+                 <p>We've created this new test because of feedback about our usual platform called Maze.</p>
+                 <p>This is an experiment and is the first time we have tested our designs in this way.</p>
+                 <p>We will provide a link at the end of the test where you can submit your feedback on this format.</p>
+                 <br>
+                 <br>
+                 <a href="consent.html" class="wmnds-btn wmnds-col-1">
+                     Continue
+                     <svg class="wmnds-btn__icon wmnds-btn__icon--right">
+                         <use xlink:href="#wmnds-general-chevron-right" href="#wmnds-general-chevron-right"></use>
+                     </svg>
+                 </a>
+             </div>
+         </div>
+     </main>
+     <br><br><br><br><br><br><br><br>
+     <footer>
+         <div class="wmnds-footer">
+             <div class="wmnds-container wmnds-grid">
+                 <div class="wmnds-col-1 wmnds-col-md-1-2">
+                     Copyright West Midlands Network &copy; 2020
+                 </div>
+                 <div class="wmnds-col-1 wmnds-col-md-1-2">
+                     <a href="https://www.wmnetwork.co.uk/privacy-cookies-policy/" title="Privacy and cookies policy" target="_blank" rel="noopener noreferrer" class="wmnds-footer__link wmnds-link">Privacy &amp; Cookies Policy</a>
+                 </div>
+             </div>
+         </div>
+     </footer>
+ </body>
+ <!-- Ajax SVGs from WMN Design System -->
+ <script>
+     const ajax = new XMLHttpRequest();
+     ajax.open('GET', 'https://designsystem.wmnetwork.co.uk/img/wmnds-sprite.min.svg', true);
+     ajax.send();
+     ajax.onload = function() {
+         const div = document.createElement('div');
+         div.style.display = 'none';
+         div.innerHTML = ajax.responseText;
+         document.body.insertBefore(div, document.body.childNodes[0]);
+     };
+ </script>
+ <!-- Hotjar Tracking Code for http://www.networkwestmidlands.com/ -->
+ <script>
+     (function(h, o, t, j, a, r) {
+         h.hj = h.hj || function() {
+             (h.hj.q = h.hj.q || []).push(arguments)
+         };
+         h._hjSettings = {
+             hjid: 1996972,
+             hjsv: 6
+         };
+         a = o.getElementsByTagName('head')[0];
+         r = o.createElement('script');
+         r.async = 1;
+         r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+         a.appendChild(r);
+     })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+ </script>
+
+ </html>

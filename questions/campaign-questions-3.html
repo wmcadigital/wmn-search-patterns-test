@@ -1,0 +1,106 @@
+ <!DOCTYPE html>
+ <html lang="en-gb" class="wmnds-html">
+
+ <head>
+     <title>[Question] User Testing | West Midlands Network</title><meta name="viewport" content="width=device-width,initial-scale=1">
+     <!-- CSS for WMN Design System -->
+     <link rel="stylesheet" href="https://designsystem.wmnetwork.co.uk/css/wmnds-components.min.css" />
+ </head>
+
+ <body>
+     <!-- Skip to content link -->
+     <a href="#wmnds-main-content" title="Skip to main content" target="_self" class="wmnds-link wmnds-header__skip-link">Skip to main content</a>
+     <!-- Main header section -->
+     <header>
+         <div class="wmnds-header">
+             <div class="wmnds-container wmnds-grid wmnds-grid--align-center wmnds-grid--justify-between">
+                 <div class="wmnds-header__vertical-align wmnds-col-auto">
+                     <!-- Logo -->
+                     <a class="wmnds-header__logo-link" href="#" title="West Midlands Network Design System">
+                         <img class="wmnds-header__logo" alt="West Midlands Network logo" src="https://designsystem.wmnetwork.co.uk/img/logo.svg" />
+                     </a>
+                 </div>
+                 <!-- Header title -->
+                 <h1 class="wmnds-header__title wmnds-col-1 wmnds-col-sm-auto">
+                     User testing
+                 </h1>
+             </div>
+         </div>
+     </header>
+     <br><br>
+     <main>
+         <div class="wmnds-grid wmnds-container">
+             <div class="wmnds-content-card wmnds-col-1 wmnds-col-lg-2-3">
+                 <div class="wmnds-p-md">
+                     <div class="wmnds-progress-indicator">
+                         Section 3 of 9
+                     </div>
+                     <h2 class="wmnds-fe-question wmnds-col-1 wmnds-col-md-2-3">Let's answer some questions about the last page</h2>
+                     <p>Answer the questions that appear at the bottom of your browser.</p>
+                     <p>You will need to disable your ad blocker if you have one enabled.</p>
+                     <p>You can <a href="../preview/campaign-test-6.html" target="_blank" class="wmnds-link">view the page again (opens in a new tab)</a>.</p>
+                     <br>
+                     <br>
+                     <br>
+                     <div class="wmnds-warning-text ">
+                         <svg class="wmnds-warning-text__icon">
+                             <use xlink:href="#wmnds-general-warning-circle" href="#wmnds-general-warning-circle"></use>
+                         </svg>
+                         If you move on without answering the questions, you won't be entered into the prize draw
+                     </div>
+                     <br>
+                     <br>
+                     <a href="../tasks/campaign-task-4.html" target="_self" class="wmnds-btn wmnds-col-1">
+                         Continue to the next section
+                     </a>
+                 </div>
+             </div>
+         </div>
+     </main>
+     <br><br><br><br><br><br><br><br>
+     <footer>
+         <div class="wmnds-footer">
+             <div class="wmnds-container wmnds-grid">
+                 <div class="wmnds-col-1 wmnds-col-md-1-2">
+                     Copyright West Midlands Network &copy; 2020
+                 </div>
+                 <div class="wmnds-col-1 wmnds-col-md-1-2">
+                     <a href="https://www.wmnetwork.co.uk/privacy-cookies-policy/" title="Privacy and cookies policy" target="_blank" rel="noopener noreferrer" class="wmnds-footer__link wmnds-link">Privacy &amp; Cookies Policy</a>
+                 </div>
+             </div>
+         </div>
+     </footer>
+ </body>
+
+
+ <!-- Ajax SVGs from WMN Design System -->
+ <script>
+     const ajax = new XMLHttpRequest();
+     ajax.open('GET', 'https://designsystem.wmnetwork.co.uk/img/wmnds-sprite.min.svg', true);
+     ajax.send();
+     ajax.onload = function() {
+         const div = document.createElement('div');
+         div.style.display = 'none';
+         div.innerHTML = ajax.responseText;
+         document.body.insertBefore(div, document.body.childNodes[0]);
+     };
+ </script>
+ <!-- Hotjar Tracking Code for http://www.networkwestmidlands.com/ -->
+ <script>
+     (function(h, o, t, j, a, r) {
+         h.hj = h.hj || function() {
+             (h.hj.q = h.hj.q || []).push(arguments)
+         };
+         h._hjSettings = {
+             hjid: 1996972,
+             hjsv: 6
+         };
+         a = o.getElementsByTagName('head')[0];
+         r = o.createElement('script');
+         r.async = 1;
+         r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+         a.appendChild(r);
+     })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+ </script>
+
+ </html>
